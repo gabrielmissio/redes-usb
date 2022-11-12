@@ -1,0 +1,13 @@
+{
+  "name": "redes-usb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT License",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "list-usb-serial": "dmesg | grep -i serial"
+  },
+  "dependencies": {
+    "usb": "^2.5.2"
+  }
+}
