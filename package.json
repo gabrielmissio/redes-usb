@@ -5,7 +5,8 @@
   "license": "MIT License",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "list-usb-serial": "dmesg | grep -i serial"
+    "list-usb-serial": "dmesg | grep -i serial",
+    "start": "node src/index.js"
   },
   "dependencies": {
     "usb": "^2.5.2"
